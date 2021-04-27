@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product LP Prototype</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    </head>
+        
+    <body>
+        <header id="header">
+            <img src="{% static '/img/majorsgaragev3.png' %}" alt="MG" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#business-features" class="nav-link">Coaching</a></li>
+                    <li><a href="#pricing" class="nav-link">Setups</a></li>
+                    <li><a href="#tutorial" class="nav-link">Service Disclaimer</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <div id="advert-email">
+            <h3>Get started with a personal coaching today!</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input id="email" name="email" type="email" placeholder="Email..." required>
+                <input id="submit" type="submit"></input>
+            </form>
+        </div>
+
+        <div id="container">
+            <section id="business-features">
+                <div class="grid">
+                    <div class="icon">
+                        <i>
+                            <img src="https://img.icons8.com/color/64/000000/medal2--v1.png"/>
+                        </i>
+                    </div>
+                    <div class="desc">
+                        <h2>Pro Level Drivers</h2>
+                        <p>All of our coaches compete and win at the highest levels of the sport.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i>
+                            <img src="https://img.icons8.com/fluent-systems-regular/64/000000/low-price.png"/>
+                        </i>
+                    </div>
+                    <div class="desc">
+                        <h2>Best Prices on the Market</h2>
+                        <p>Our prices reflect our small business mindset allowing us to keep the focus on being a better resource for the community.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tutorial">
+                <iframe id="video" height="400" src="https://www.youtube.com/embed/e3DmDhlVUSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <section id="pricing">
+                <div class="products">
+                    <h3 class="prod-title">One on One Coaching Session</h3>
+                    <strong>$40</strong>
+                    <p class="prod-desc">Enhance your racing experience in as little as one hour with Majors Garage!</p>
+                    <button id="submit">Begin Learning</button>
+                </div>
+                <div class="products">
+                    <h3 class="prod-title">Team Coaching Session</h3>
+                    <strong>$100</strong>
+                    <p class="prod-desc">Bring your whole team along to cover driving as well as other key team related activities.</p>
+                    <button id="submit">Begin Learning</button>
+                </div>
+                <div class="products">
+                    <h3 class="prod-title">Custom Setups</h3>
+                    <strong>$20</strong>
+                    <p class="prod-desc">We cover the entire iRacing catalog and return custom setup requests within 48 hours!</p>
+                    <button id="submit">Begin Learning</button>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <ul id="legal">
+                <li><a href="#" class="legal-link">Contact</a></li>
+                <li><a href="#" class="legal-link">Privacy Policy</a></li>
+                <li><a href="#" class="legal-link">Content Disclaimer</a></li>
+            </ul>
+        </footer>
+
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+    </body>
+</html>

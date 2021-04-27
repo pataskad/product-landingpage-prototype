@@ -1,0 +1,115 @@
+@media (min-width: 600px) {
+    #header {
+        background-color: red;
+    }
+}
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #ecececd8;
+}
+
+#header-img {
+    height: 200px;
+    width: 100%;
+    max-width: 450px;
+    min-height: 75px;
+    margin: 0px 51px 0px 75px;
+    text-align: left;
+}
+#header {
+    align-items: center;
+    position: fixed;
+    display: inline-flex;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+}
+ ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-color: initial;
+}
+#nav-bar {
+    padding: 20px 0px 0px 0px;
+}
+.nav-link {
+    color: #c41a1a;
+    margin: 44px 75px 0px 75px;
+    padding: 15px 20px 0px 20px;
+}
+#advert-email {
+    margin-top: 225px;
+    text-align: center;
+}
+#email {
+    padding: 3px;
+}
+#submit {
+    background-color: #5bdf62;
+    border-color: #5bdf62;
+}
+#container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 75px auto 50px auto;
+}
+.grid {
+    display: flex;
+}
+#business-features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px 0px 0px 20px;
+}
+#tutorial {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#video {
+    max-width: 560px;
+    width: 100%;
+}
+#pricing {
+    margin-top: 50px;
+    display: inline-flex;
+}
+.products {
+    max-width: 325px;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    flex-direction: column;
+}
+.prod-title {
+    padding: 20px 5px 20px 5px;
+    width: 100%;
+    margin: -5px 0px 25px 0px;
+    text-align: center;
+    background-color: rgb(199, 198, 198);
+}
+.prod-desc {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin: 35px 0px 35px 0px;
+}
+#footer {
+    margin: 50px 0px 0px 0px;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+}
+.legal-link {
+    padding-right: 30px;
+}
